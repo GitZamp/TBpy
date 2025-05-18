@@ -1,6 +1,7 @@
-from tools import passgener
-from memory_profiler import profile
-from tools import autofilter
+import profile
+
+from tools import passgener, autofilter
+
 
 @profile
 def main():
